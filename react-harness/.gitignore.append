@@ -1,0 +1,26 @@
+# ===================================================================
+# React Harness — 다음 항목을 프로젝트의 기존 .gitignore에 append 하세요.
+# 이미 있는 항목은 중복 추가하지 않아도 됩니다.
+# ===================================================================
+
+# Claude Code 하네스 워크스페이스 (단계 간 상태 파일)
+.claude/workspace/
+
+# Claude Code 로컬 설정 (개인용)
+.claude/settings.local.json
+
+# 환경변수 파일 (GITHUB_PAT 등)
+.env
+.env.local
+.env.*.local
+
+# Next.js 빌드 산출물
+.next/
+out/
+
+# OS / Editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/settings.json
